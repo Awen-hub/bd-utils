@@ -21,7 +21,11 @@
     "函数工具库"
   ],
   "author": "Awen",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Awen-hub/bd-utils"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.13.15",
