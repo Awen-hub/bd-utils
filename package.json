@@ -1,5 +1,5 @@
 {
-  "name": "bd-utils",
+  "name": "bytedance-utils",
   "version": "0.0.1",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
@@ -59,8 +59,7 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "semantic-release": "^17.4.3",
     "ts-jest": "^26.5.5",
-    "typescript": "^4.2.4",
-    "compare-func": "^2.0.0"
+    "typescript": "^4.2.4"
   },
   "exports": {
     "require": "./cjs/index.js",
