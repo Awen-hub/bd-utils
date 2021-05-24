@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "bytedance-utils",
   "version": "0.0.1",
+=======
+  "name": "bd-utils",
+  "version": "1.0.0",
+>>>>>>> 9920ebb9459cb02899077e8b3d821a3961993592
   "description": "团队工具函数库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
