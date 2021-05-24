@@ -2,7 +2,7 @@ module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
   modulePaths: ["./"],
-  //处理ts中引入js包导致测试失败问题
+  // 处理ts中引入js包导致测试失败问题
   transform: {
     "(ts|tsx|js|jsx)?$": "ts-jest",
   },
