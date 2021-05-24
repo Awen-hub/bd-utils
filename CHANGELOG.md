@@ -1,5 +1,12 @@
 # 日志
 
+# 1.0.0 (2021-05-24)
+
+
+### ♻ Refactor | 代码重构
+
+* **global:** 仓库迁移后第一次发版 ([ff5775b](https://github.com/Awen-hub/bd-utils/commit/ff5775b))
+
 ## [2.6.4](https://github.com/Awen-hub/utils/compare/v2.6.3...v2.6.4) (2021-05-24)
 
 
