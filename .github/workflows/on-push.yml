@@ -1,0 +1,32 @@
+on:
+  push:
+    branches:    
+      - main
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+          registry-url: https://registry.npmjs.org/
+      - name: Build
+        run: |
+          npm install pnpm -g
+          pnpm install
+          pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
+          pnpm run test
+          pnpm run build
+      - name: Publish
+        run: |
+          git config --global user.email "920733056@qq.com"
+          git config --global user.name "Awen-hub"
+          pnpm run release 
+        # npm version patch
+        # npm publish || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
