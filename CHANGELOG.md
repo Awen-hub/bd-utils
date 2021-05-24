@@ -1,5 +1,13 @@
 # 日志
 
+# [1.1.0](https://github.com/Awen-hub/bd-utils/compare/v1.0.1...v1.1.0) (2021-05-24)
+
+
+### ♻ Refactor | 代码重构
+
+* **action:** 测试ci发版 ([58c71aa](https://github.com/Awen-hub/bd-utils/commit/58c71aa))
+* **global:** 发版 ([3e65964](https://github.com/Awen-hub/bd-utils/commit/3e65964))
+
 ## [1.0.1](https://github.com/Awen-hub/bd-utils/compare/v1.0.0...v1.0.1) (2021-05-24)
 
 
