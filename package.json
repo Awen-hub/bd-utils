@@ -15,7 +15,8 @@
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts && yarn prettier --write *.js",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
     "release": "semantic-release",
-    "patch": "npm version patch"
+    "patch": "npm version patch",
+    "prepare": "husky install"
   },
   "keywords": [
     "函数工具库"
