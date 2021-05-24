@@ -10,4 +10,5 @@
 打包工具: rollup
 
 ## 特殊命令
+husky初始化: npx husky-init && npm install 
 加husky: npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'

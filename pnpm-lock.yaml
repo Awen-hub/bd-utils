@@ -17,7 +17,6 @@ specifiers:
   babel-preset-env: ^1.7.0
   clean-jsdoc-theme: ^3.2.6
   commitizen: ^4.2.4
-  compare-func: ^2.0.0
   conventional-changelog-cli: ^2.1.1
   conventional-changelog-cmyr-config: ^1.2.3
   conventional-changelog-custom-config: ^0.3.1
@@ -53,7 +52,6 @@ devDependencies:
   babel-preset-env: 1.7.0
   clean-jsdoc-theme: 3.2.7_jsdoc@3.6.7
   commitizen: 4.2.4
-  compare-func: 2.0.0
   conventional-changelog-cli: 2.1.1
   conventional-changelog-cmyr-config: 1.2.3
   conventional-changelog-custom-config: 0.3.1
