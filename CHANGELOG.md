@@ -1,5 +1,15 @@
 # 日志
 
+## [1.0.1](https://github.com/Awen-hub/bd-utils/compare/v1.0.0...v1.0.1) (2021-05-24)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **husky:** 修复husky ([1434fb0](https://github.com/Awen-hub/bd-utils/commit/1434fb0))
+* **husky:** 修复husky ([d63b05f](https://github.com/Awen-hub/bd-utils/commit/d63b05f))
+* **husky:** 测试husky ([8e154f1](https://github.com/Awen-hub/bd-utils/commit/8e154f1))
+* **package.json:** 修复依赖问题 ([d25c50b](https://github.com/Awen-hub/bd-utils/commit/d25c50b))
+
 # 1.0.0 (2021-05-24)
 
 
