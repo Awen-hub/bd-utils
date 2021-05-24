@@ -11,5 +11,6 @@ module.exports = {
     "lib/**/*.ts",
     "!lib/**/module.ts", //不纳入覆盖率的文件
     "!lib/**/index.ts",
+    "!lib/index.ts"
   ],
 };

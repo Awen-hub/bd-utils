@@ -1,5 +1,5 @@
 {
-  "name": "bd-utils",
+  "name": "bytedance-utils",
   "version": "1.0.0",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
