@@ -27,7 +27,8 @@ module.exports = {
       {
         "assets": [
           "package.json",
-          "CHANGELOG.md"
+          "CHANGELOG.md",
+          "docs/README.md"
         ],
       }
     ]
