@@ -31,9 +31,12 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}	
+        env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}	
       - name: Publish
         run: |
