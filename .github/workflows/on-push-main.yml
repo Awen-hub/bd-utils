@@ -21,6 +21,8 @@ jobs:
           pnpm run build
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
+          git remote -v
+          git branch
           git add .
           git commit -m "docs(readme): 更新文档"
           git push origin main
