@@ -121,6 +121,7 @@
     * [.isGreater](#Number.isGreater) ⇒ <code>boolean</code>
     * [.isGreaterOrEqual](#Number.isGreaterOrEqual) ⇒ <code>boolean</code>
     * [.inRange](#Number.inRange) ⇒ <code>number</code>
+    * [.splitWithThousands](#Number.splitWithThousands) ⇒ <code>string</code>
 
 <a name="Number.random"></a>
 
@@ -251,6 +252,18 @@
 | num | <code>number</code> | 需要判断的数 |
 | low | <code>number</code> | 闭区间左值 |
 | high | <code>number</code> | 闭区间右值 |
+
+<a name="Number.splitWithThousands"></a>
+
+### Number.splitWithThousands ⇒ <code>string</code>
+每3位数字用","切分
+
+**Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>string</code> - -返回格式化后的字符串  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| num | <code>number</code> \| <code>string</code> | 需要格式化的数字 |
 
 <a name="String"></a>
 
