@@ -23,6 +23,7 @@ jobs:
           git config --global user.name "Awen-hub"
           git remote -v
           git branch
+          git checkout -b main
           git add .
           git commit -m "docs(readme): 更新文档"
           git push origin main
