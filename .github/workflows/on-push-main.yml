@@ -19,6 +19,11 @@ jobs:
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run check
           pnpm run build
+<<<<<<< Updated upstream
+=======
+          git config --global user.email "920733056@qq.com"
+          git config --global user.name "Awen-hub"
+>>>>>>> Stashed changes
       - name: Publish
         run: |
           git config --global user.email "920733056@qq.com"
