@@ -19,6 +19,7 @@ jobs:
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run test
           pnpm run build
+          pnpm run serve
       - name: Publish
         run: |
           git config --global user.email "920733056@qq.com"
