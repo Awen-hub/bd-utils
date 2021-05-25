@@ -29,6 +29,7 @@ jobs:
       - name: Publish
         run: |
           pnpm run release 
+          yarn serve
         # npm version patch
         # npm publish || true
         env:
