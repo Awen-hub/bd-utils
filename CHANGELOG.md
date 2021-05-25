@@ -1,5 +1,17 @@
 # 日志
 
+## [1.1.4](https://github.com/Awen-hub/bd-utils/compare/v1.1.3...v1.1.4) (2021-05-25)
+
+
+### ⏪ Reverts | 回退
+
+* **global:** 回退 ([6be500c](https://github.com/Awen-hub/bd-utils/commit/6be500c))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **readme:** 修复文档 ([26ad5f9](https://github.com/Awen-hub/bd-utils/commit/26ad5f9))
+
 ## [1.1.3](https://github.com/Awen-hub/bd-utils/compare/v1.1.2...v1.1.3) (2021-05-25)
 
 
