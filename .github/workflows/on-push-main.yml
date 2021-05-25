@@ -19,17 +19,19 @@ jobs:
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run check
           pnpm run build
-      - name: repush
+      - name: recommit
         run: |
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
           git remote add origin git@github.com:Awen-hub/bd-utils.git
-          git branch
           git checkout -b main
           git add .
           git commit -m "docs(readme): 修改文档"
-          git push origin main
-        env:
+      - name: repush
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
