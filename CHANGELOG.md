@@ -1,5 +1,12 @@
 # 日志
 
+## [1.1.2](https://github.com/Awen-hub/bd-utils/compare/v1.1.1...v1.1.2) (2021-05-25)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **docs:** 修复文档问题 ([3e0e520](https://github.com/Awen-hub/bd-utils/commit/3e0e520))
+
 ## [1.1.1](https://github.com/Awen-hub/bd-utils/compare/v1.1.0...v1.1.1) (2021-05-25)
 
 
