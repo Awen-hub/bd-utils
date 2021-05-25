@@ -24,7 +24,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACTION_ACCESS_TOKEN }}
-          BRANCH: main
+          BRANCH: Docs
           FOLDER: docs
       - name: Publish
         run: |
