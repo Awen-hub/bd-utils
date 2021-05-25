@@ -18,4 +18,4 @@ jobs:
           pnpm install
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
       - name: Test
-        run: pnpm run test
+        run: pnpm run check

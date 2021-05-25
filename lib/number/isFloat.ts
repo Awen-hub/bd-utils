@@ -7,6 +7,9 @@ import { trunc } from "./trunc";
  * @param {number} num - 传入的数
  * @returns {boolean}
  */
-const isFloat = (num: number): boolean => trunc(num) !== num;
+const isFloat = (num: number | string): boolean => {
+  if (typeof num === "string") return num.includes(".");
+  return trunc(num) !== num;
+};
 
 export { isFloat };

@@ -7,7 +7,8 @@
   "scripts": {
     "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
     "lint": "yarn format && yarn fix",
-    "test": "yarn lint && jest --collect-coverage",
+    "test" : "jest --collect-coverage",
+    "check": "yarn lint && yarn test",
     "doc": "jsdoc -c jsdoc.json",
     "serve": "docsify serve ./docs",
     "md": "jsdoc2md esm/index.js > docs/readme.md",
