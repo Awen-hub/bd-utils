@@ -23,6 +23,7 @@ jobs:
           git config --global user.name "Awen-hub"
           git add .
           git commit -m "docs(readme): 更新文档"
+          git checkout -b Docs
           git push origin Docs -f
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
