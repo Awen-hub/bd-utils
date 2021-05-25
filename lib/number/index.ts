@@ -10,3 +10,4 @@ export { isLessOrEqual } from "./isLessOrEqual";
 export { isGreater } from "./isGreater";
 export { isGreaterOrEqual } from "./isGreaterOrEqual";
 export { inRange } from "./inRange";
+export { splitWithThousands } from "./splitWithThousands";
