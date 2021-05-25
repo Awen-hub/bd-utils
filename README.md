@@ -2,6 +2,12 @@
 
 ##
 文档: https://awen-hub.github.io/utils/#/
+
+## npm地址
+npm: https://www.npmjs.com/package/bytedance-utils
+
+## GitHub地址
+github: https://www.npmjs.com/package/bytedance-utils
 ## 项目全局依赖
 包管理工具: pnpm、yarn
 命令行工具: node、npx
