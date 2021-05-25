@@ -19,10 +19,15 @@ jobs:
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run check
           pnpm run build
+      # 部署到 GitHub Pages
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          BRANCH: main
+          FOLDER: docs
       - name: Publish
         run: |
-          git config --global user.email "920733056@qq.com"
-          git config --global user.name "Awen-hub"
           pnpm run release 
         # npm version patch
         # npm publish || true
