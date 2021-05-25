@@ -1,5 +1,37 @@
 # 日志
 
+## [1.1.1](https://github.com/Awen-hub/bd-utils/compare/v1.1.0...v1.1.1) (2021-05-25)
+
+
+### ✨ Features | 新功能
+
+* **number:** 新功能：splitWithThousands，千位分隔符 ([8d998d4](https://github.com/Awen-hub/bd-utils/commit/8d998d4))
+* **number:** 新功能：splitWithThousands，千位分隔符 ([4467561](https://github.com/Awen-hub/bd-utils/commit/4467561))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **action:** 修复ci ([9a20c97](https://github.com/Awen-hub/bd-utils/commit/9a20c97))
+* **action:** 修复ci ([04e558d](https://github.com/Awen-hub/bd-utils/commit/04e558d))
+* **action:** 修复ci触发顺序 ([6965459](https://github.com/Awen-hub/bd-utils/commit/6965459))
+* **action:** 修复无法发版问题 ([2d3729d](https://github.com/Awen-hub/bd-utils/commit/2d3729d))
+* **action:** 修改action的触发流程 ([409aafe](https://github.com/Awen-hub/bd-utils/commit/409aafe))
+* **package.json:** 更改版本 ([1200369](https://github.com/Awen-hub/bd-utils/commit/1200369))
+
+
+### 📝 Documentation | 文档
+
+* **reademe:** 修改样式 ([1f2f7e1](https://github.com/Awen-hub/bd-utils/commit/1f2f7e1))
+* **reademe:** 增加仓库地址 ([4681a75](https://github.com/Awen-hub/bd-utils/commit/4681a75))
+* **readme:** 修改reademe ([10b469f](https://github.com/Awen-hub/bd-utils/commit/10b469f))
+* **workflow:** 修改文档地址 ([2034ba4](https://github.com/Awen-hub/bd-utils/commit/2034ba4))
+
+
+### 🔧 Continuous Integration | CI 配置
+
+* **action:** 修复ci ([d11ded7](https://github.com/Awen-hub/bd-utils/commit/d11ded7))
+* **action:** 配置ci触发规则 ([81db0f4](https://github.com/Awen-hub/bd-utils/commit/81db0f4))
+
 # [1.1.0](https://github.com/Awen-hub/bd-utils/compare/v1.0.1...v1.1.0) (2021-05-24)
 
 
