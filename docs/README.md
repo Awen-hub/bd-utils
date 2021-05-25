@@ -326,5 +326,8 @@ EventBus对象, 拥有on，off，emit方法
 **Kind**: static property of [<code>Object</code>](#Object)  
 **Example**  
 ```js
-var eventBus = new EventBus()eventBus.on('log', (num1, num2) => {console.log(num1 + num2)})eventBus.emit('log')eventBus.off('log', num)
+var eventBus = new EventBus()
+eventBus.on('log', (num1, num2) => {console.log(num1 + num2)})
+eventBus.emit('log')
+eventBus.off('log', num)
 ```
