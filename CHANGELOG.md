@@ -1,5 +1,28 @@
 # 日志
 
+## [1.1.3](https://github.com/Awen-hub/bd-utils/compare/v1.1.2...v1.1.3) (2021-05-25)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **action:** 修复文档 ([e3616ab](https://github.com/Awen-hub/bd-utils/commit/e3616ab))
+* **action:** 修复文档 ([b947d29](https://github.com/Awen-hub/bd-utils/commit/b947d29))
+* **action:** 修复文档 ([17feeb1](https://github.com/Awen-hub/bd-utils/commit/17feeb1))
+
+
+### 📝 Documentation | 文档
+
+* **action:** 修复文档 ([ccba3dc](https://github.com/Awen-hub/bd-utils/commit/ccba3dc))
+* **action:** 修复文档 ([7c310b9](https://github.com/Awen-hub/bd-utils/commit/7c310b9))
+* **action:** 修复文档 ([abe4502](https://github.com/Awen-hub/bd-utils/commit/abe4502))
+* **action:** 修复文档 ([346d7b6](https://github.com/Awen-hub/bd-utils/commit/346d7b6))
+* **action:** 修复文档 ([635c3b7](https://github.com/Awen-hub/bd-utils/commit/635c3b7))
+* **action:** 修复文档 ([07977a5](https://github.com/Awen-hub/bd-utils/commit/07977a5))
+* **action:** 修复文档 ([8269c38](https://github.com/Awen-hub/bd-utils/commit/8269c38))
+* **action:** 修复文档 ([d6a8f2f](https://github.com/Awen-hub/bd-utils/commit/d6a8f2f))
+* **action:** 修复文档修改流程 ([d110ca0](https://github.com/Awen-hub/bd-utils/commit/d110ca0))
+* **action:** 修改生成文档的机制 ([4efd5eb](https://github.com/Awen-hub/bd-utils/commit/4efd5eb))
+
 ## [1.1.2](https://github.com/Awen-hub/bd-utils/compare/v1.1.1...v1.1.2) (2021-05-25)
 
 
