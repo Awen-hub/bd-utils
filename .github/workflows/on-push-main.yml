@@ -19,10 +19,13 @@ jobs:
           pnpm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           pnpm run check
           pnpm run build
-      - name: Publish
-        run: |
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
+          git add .
+          git commit -m "docs(readme): 更新文档"
+          git push origin main
+      - name: Publish
+        run: |
           pnpm run release 
         # npm version patch
         # npm publish || true
