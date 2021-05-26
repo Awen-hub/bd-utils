@@ -1,6 +1,6 @@
 {
   "name": "bytedance-utils",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "团队工具函数库",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -11,7 +11,7 @@
     "check": "yarn lint && yarn test",
     "doc": "jsdoc -c jsdoc.json",
     "serve": "docsify serve ./docs",
-    "md": "jsdoc2md esm/index.js > docs/Readme.md",
+    "md": "jsdoc2md esm/index.js > docs/README.md",
     "build": "rollup -c  && tsc && yarn doc && yarn md && node scripts/handleDtsFile.js",
     "format": "yarn prettier --write lib/**/*.ts && yarn prettier --write test/**/*.ts && yarn prettier --write *.js",
     "fix": "eslint --fix lib/**/*.ts --no-ignore && eslint --fix test/**/*.ts --no-ignore",
