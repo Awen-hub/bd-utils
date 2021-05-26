@@ -26,9 +26,9 @@ jobs:
           npm run check
           npm run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          token: ${{ secrets.ACTION_ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: docs
       - name: Publish
