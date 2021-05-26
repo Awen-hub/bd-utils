@@ -121,7 +121,6 @@
     * [.isGreater](#Number.isGreater) ⇒ <code>boolean</code>
     * [.isGreaterOrEqual](#Number.isGreaterOrEqual) ⇒ <code>boolean</code>
     * [.inRange](#Number.inRange) ⇒ <code>number</code>
-    * [.splitWithThousands](#Number.splitWithThousands) ⇒ <code>string</code>
 
 <a name="Number.random"></a>
 
@@ -253,18 +252,6 @@
 | low | <code>number</code> | 闭区间左值 |
 | high | <code>number</code> | 闭区间右值 |
 
-<a name="Number.splitWithThousands"></a>
-
-### Number.splitWithThousands ⇒ <code>string</code>
-每3位数字用","切分
-
-**Kind**: static property of [<code>Number</code>](#Number)  
-**Returns**: <code>string</code> - -返回格式化后的字符串  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| num | <code>number</code> \| <code>string</code> | 需要格式化的数字 |
-
 <a name="String"></a>
 
 ## String : <code>object</code>
@@ -339,5 +326,8 @@ EventBus对象, 拥有on，off，emit方法
 **Kind**: static property of [<code>Object</code>](#Object)  
 **Example**  
 ```js
-var eventBus = new EventBus()eventBus.on('log', (num1, num2) => {console.log(num1 + num2)})eventBus.emit('log')eventBus.off('log', num)
+var eventBus = new EventBus()
+eventBus.on('log', (num1, num2) => {console.log(num1 + num2)})
+eventBus.emit('log')
+eventBus.off('log', num)
 ```
