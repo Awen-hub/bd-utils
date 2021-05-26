@@ -25,13 +25,12 @@ jobs:
           npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           npm run check
           npm run build
-          git remote set-url origin https://github.com/utilsTeam/bd-utils.git
-          git config --global user.email "920733056@qq.com"
-          git config --global user.name "Awen-hub"
-          git checkout -b Docs
-          git add . 
-          git commit -m "docs(readme): 更新文档"
-          git push --force origin Docs
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: ./bd-utils
       - name: Publish
         run: |
           npm run release 
