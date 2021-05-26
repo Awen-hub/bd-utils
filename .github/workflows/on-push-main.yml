@@ -30,7 +30,7 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACTION_ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: ./bd-utils
+          FOLDER: ../bd-utils
       - name: Publish
         run: |
           npm run release 
