@@ -26,11 +26,11 @@ jobs:
           npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           npm run check
           npm run build
-          cd ./docs && git init && git add .
           git remote add https://github.com/utilsTeam/bd-utils.git
           git remote -v
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
+          git checkout -b Docs
           git add . 
           git commit -m "docs(readme): 更新文档"
           git push --force origin Docs
