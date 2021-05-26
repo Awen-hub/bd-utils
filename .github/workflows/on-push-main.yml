@@ -26,7 +26,6 @@ jobs:
           npm run check
           npm run build
           git remote set-url origin https://github.com/utilsTeam/bd-utils.git
-          git remote -v
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
           git checkout -b Docs
