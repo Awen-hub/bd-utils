@@ -13,24 +13,25 @@ jobs:
           node-version: 14.x
           registry-url: https://registry.npmjs.org/
       - name: Build
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}	
+          GITHUB_REPO: github.com/utilsTeam/bd-utils.git
         run: |
           npm install pnpm -g
           npm install
           npm install jsdoc jsdoc-to-markdown rollup docsify-cli typescript -g
           npm run check
           npm run build
+          cd ./docs && git init && git add .
           git config --global user.email "920733056@qq.com"
           git config --global user.name "Awen-hub"
-          git add .
+          git add . 
           git commit -m "docs(readme): 更新文档"
-          git checkout -b Docs
-          git push origin Docs -f
-        with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
-          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}	
+          git push --force --quiet "https://${{ secrets.ACTION_ACCESS_TOKEN }}@$GITHUB_REPO" Docs:Docs
       - name: Publish
         run: |
           npm run release 
