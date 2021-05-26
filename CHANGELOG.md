@@ -1,5 +1,23 @@
 # 日志
 
+## [1.1.5](https://github.com/Awen-hub/bd-utils/compare/v1.1.4...v1.1.5) (2021-05-26)
+
+
+### 📝 Documentation | 文档
+
+* **reademe:** 文档 ([50a5c81](https://github.com/Awen-hub/bd-utils/commit/50a5c81))
+* **readme:** 文档 ([97a003d](https://github.com/Awen-hub/bd-utils/commit/97a003d))
+* **wendang:** wenadng ([83f003e](https://github.com/Awen-hub/bd-utils/commit/83f003e))
+* **wendang:** wendang ([ca6f41b](https://github.com/Awen-hub/bd-utils/commit/ca6f41b))
+* **wendang:** wendang ([cad5fe8](https://github.com/Awen-hub/bd-utils/commit/cad5fe8))
+* **文档:** 文档 ([4a9cd22](https://github.com/Awen-hub/bd-utils/commit/4a9cd22))
+* **文档:** 文档 ([88c0560](https://github.com/Awen-hub/bd-utils/commit/88c0560))
+
+
+### 🔧 Continuous Integration | CI 配置
+
+* **文档:** 文档 ([7d18f2c](https://github.com/Awen-hub/bd-utils/commit/7d18f2c))
+
 ## [1.1.4](https://github.com/Awen-hub/bd-utils/compare/v1.1.3...v1.1.4) (2021-05-25)
 
 
