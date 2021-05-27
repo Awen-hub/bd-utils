@@ -83,23 +83,23 @@
       },
       "fix": {
         "title": "🐛 Bug Fixes | Bug 修复",
-        "enable": true
+        "enable": false
       },
       "perf": {
         "title": "⚡ Performance Improvements | 性能优化",
-        "enable": true
+        "enable": false
       },
       "revert": {
         "title": "⏪ Reverts | 回退",
-        "enable": true
+        "enable": false
       },
       "refactor": {
         "title": "♻ Refactor | 代码重构",
-        "enable": true
+        "enable": false
       },
       "docs": {
         "title": "📝 Documentation | 文档",
-        "enable": true
+        "enable": false
       },
       "style": {
         "title": "💄 Styles | 风格",
@@ -111,11 +111,11 @@
       },
       "build": {
         "title": "👷‍ Build System | 构建",
-        "enable": true
+        "enable": false
       },
       "ci": {
         "title": "🔧 Continuous Integration | CI 配置",
-        "enable": true
+        "enable": false
       },
       "chore": {
         "title": "🎫 Chores | 其他更新",
