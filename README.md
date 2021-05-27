@@ -1,13 +1,13 @@
 # utils
 
 ## 文档: 
-https://awen-hub.github.io/utils/#/
+https://utilsteam.github.io/bd-utils/#/
 
 ## npm地址 : 
 https://www.npmjs.com/package/bytedance-utils
 
 ## GitHub地址:
-https://www.npmjs.com/package/bytedance-utils
+https://github.com/utilsTeam/bd-utils
 
 ## 项目全局依赖
 * 包管理工具: pnpm、yarn
