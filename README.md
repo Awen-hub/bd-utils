@@ -32,7 +32,7 @@
 从传入数组中获取若干随机项作为返回值, 选取的项可能重复
 
 **Kind**: static property of [<code>Array</code>](#Array)  
-**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -返回数组的任意一项或者把若干项合并为数组返回, 个别异常返回null  
+**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -  返回数组的任意一项或者把若干项合并为数组返回, 个别异常返回null  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -45,7 +45,7 @@
 数组浅拷贝
 
 **Kind**: static property of [<code>Array</code>](#Array)  
-**Returns**: [<code>Array</code>](#Array) - 原数组的浅拷贝  
+**Returns**: [<code>Array</code>](#Array) - -  原数组的浅拷贝  
 
 | Param | Type |
 | --- | --- |
@@ -57,7 +57,7 @@
 数组迭代器
 
 **Kind**: static property of [<code>Array</code>](#Array)  
-**Returns**: <code>void</code> \| <code>boolean</code> - -该函数正常情况不返回任何值，若循环被中断返回true  
+**Returns**: <code>void</code> \| <code>boolean</code> - -  该函数正常情况不返回任何值，若循环被中断返回true  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -70,7 +70,7 @@
 删除指定index的项，返回新的数组
 
 **Kind**: static property of [<code>Array</code>](#Array)  
-**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -返回删除指定项后的新数组, 对于原数组中不存在的下标不作处理, 重复下标只删除一次  
+**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -  -返回删除指定项后的新数组, 对于原数组中不存在的下标不作处理, 重复下标只删除一次  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -83,7 +83,7 @@
 生成一个包含闭区间内所有整数的数组
 
 **Kind**: static property of [<code>Array</code>](#Array)  
-**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -返回生成的的新数组, 异常返回null  
+**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -  -返回生成的的新数组, 异常返回null  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -96,7 +96,7 @@
 交换数组中的两项，返回新的数组
 
 **Kind**: static property of [<code>Array</code>](#Array)  
-**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -返回交换后的新数组, 异常返回null  
+**Returns**: <code>null</code> \| [<code>Array</code>](#Array) - -  返回交换后的新数组, 异常返回null  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -129,7 +129,7 @@
 返回一个范围内的随机数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
-**Returns**: <code>number</code> - -返回上界与下届之间的一个数  
+**Returns**: <code>number</code> - -  -返回上界与下届之间的一个数  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -142,6 +142,7 @@
 取数值整数部分
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>number</code> - -  
 
 | Param | Type |
 | --- | --- |
@@ -153,6 +154,7 @@
 判断一个数是否为浮点数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -164,6 +166,7 @@
 返回一个数的绝对值
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>number</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -175,6 +178,7 @@
 判断两个浮点数是否相等
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -187,6 +191,7 @@
 判断一个数是否是素数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -198,6 +203,7 @@
 判断第一个参数是否小于于第二个参数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -210,6 +216,7 @@
 判断第一个参数是否小于等于第二个参数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -222,6 +229,7 @@
 判断第一个参数是否大于第二个参数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -234,6 +242,7 @@
 判断第一个参数是否大于等于第二个参数
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -246,6 +255,7 @@
 判断某个数是否在一个闭区间内
 
 **Kind**: static property of [<code>Number</code>](#Number)  
+**Returns**: <code>number</code> - -  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -259,7 +269,7 @@
 每3位数字用","切分
 
 **Kind**: static property of [<code>Number</code>](#Number)  
-**Returns**: <code>string</code> - -返回格式化后的字符串  
+**Returns**: <code>string</code> - -  -返回格式化后的字符串  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -273,7 +283,7 @@
 * [String](#String) : <code>object</code>
     * [.reverseString](#String.reverseString) ⇒ <code>string</code>
     * [.isPalindrome](#String.isPalindrome) ⇒ <code>boolean</code>
-    * [.matchThroughout](#String.matchThroughout) ⇒ <code>string</code>
+    * [.getStrWithStartAndEnd](#String.getStrWithStartAndEnd) ⇒ <code>string</code>
 
 <a name="String.reverseString"></a>
 
@@ -281,7 +291,7 @@
 反转一个字符串，不修改原字符串
 
 **Kind**: static property of [<code>String</code>](#String)  
-**Returns**: <code>string</code> - 反转后的字符串  
+**Returns**: <code>string</code> - -  反转后的字符串  
 
 | Param | Type |
 | --- | --- |
@@ -293,14 +303,15 @@
 判断一个字符串是否是回文串
 
 **Kind**: static property of [<code>String</code>](#String)  
+**Returns**: <code>boolean</code> - -  
 
 | Param | Type |
 | --- | --- |
 | str | <code>string</code> | 
 
-<a name="String.matchThroughout"></a>
+<a name="String.getStrWithStartAndEnd"></a>
 
-### String.matchThroughout ⇒ <code>string</code>
+### String.getStrWithStartAndEnd ⇒ <code>string</code>
 通过传入开头和结尾来匹配一个字符串
 
 **Kind**: static property of [<code>String</code>](#String)  
@@ -322,7 +333,7 @@
 返回当前时区
 
 **Kind**: static property of [<code>Date</code>](#Date)  
-**Returns**: [<code>Object</code>](#Object) - 返回一个对象，包含当前时区的相关信息  
+**Returns**: [<code>Object</code>](#Object) - -  返回一个对象，包含当前时区的相关信息  
 **Example**  
 ```js
 {hours: 8, minutes: 15} //hours为正代表东时区，负为西时区
@@ -337,6 +348,7 @@
 EventBus对象, 拥有on，off，emit方法
 
 **Kind**: static property of [<code>Object</code>](#Object)  
+**Returns**: <code>EventBus</code> - -  
 **Example**  
 ```js
 var eventBus = new EventBus()eventBus.on('log', (num1, num2) => {console.log(num1 + num2)})eventBus.emit('log')eventBus.off('log', num)
