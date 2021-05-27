@@ -3,7 +3,7 @@
  * @name reverseString
  * @description 反转一个字符串，不修改原字符串
  * @param {string} str
- * @returns {string} 反转后的字符串
+ * @return - {string} 反转后的字符串
  */
 
 const reverseString = (str: string): string => {

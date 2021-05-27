@@ -3,7 +3,7 @@
  * @name isPalindrome
  * @description 判断一个字符串是否是回文串
  * @param {string} str
- * @returns {boolean}
+ * @returns - {boolean}
  */
 
 const isPalindrome = (str: string): boolean => {

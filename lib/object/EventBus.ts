@@ -2,7 +2,7 @@
  * @name EventBus
  * @memberof Object
  * @description EventBus对象, 拥有on，off，emit方法
- * @returns {EventBus}
+ * @returns - {EventBus}
  * @example
  * var eventBus = new EventBus()
  * eventBus.on('log', (num1, num2) => {console.log(num1 + num2)})
@@ -26,7 +26,7 @@ class EventBus {
   /**
    * @method
    * @param {string} name 要触发的方法名
-   * @returns {boolean}
+   * @returns - {boolean}
    */
   emit(name: string, ...payload: any[]): boolean {
     if (this.listenersMap.has(name)) {
@@ -40,7 +40,7 @@ class EventBus {
   /**
    * @method
    * @param {string} name 要触发的方法名
-   * @returns {boolean}
+   * @returns - {boolean}
    */
   off(name: string): boolean {
     return this.listenersMap.delete(name);

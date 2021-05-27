@@ -7,7 +7,7 @@ import { isFloatEqual } from "./isFloatEqual";
  * @description 判断第一个参数是否大于等于第二个参数
  * @param {number} leftNumber - 第一个参数
  * @param {number} rightNumber - 第二个参数
- * @returns {boolean}
+ * @returns - {boolean}
  */
 
 const isGreaterOrEqual = (leftNumber: number, rightNumber: number): boolean =>

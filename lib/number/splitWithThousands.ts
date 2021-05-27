@@ -7,7 +7,7 @@ const formater = new Intl.NumberFormat("en-US");
  * @name splitWithThousands
  * @description 每3位数字用","切分
  * @param {number | string} num - 需要格式化的数字
- * @returns {string} -返回格式化后的字符串
+ * @returns - {string} -返回格式化后的字符串
  */
 const splitWithThousands = (num: number | string): string => {
   const numStr = isFloat(num) ? String(num) : String(num) + ".0";

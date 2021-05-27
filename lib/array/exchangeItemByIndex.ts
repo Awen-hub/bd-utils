@@ -7,7 +7,7 @@ import { isFloat } from "../number/isFloat";
  * @param {Array} originList -源数组
  * @param {number} fromIndex -需要交换的项的下标
  * @param {number} toIndex -交换后的项的下标
- * @returns {null|Array} -返回交换后的新数组, 异常返回null
+ * @returns - {null|Array} 返回交换后的新数组, 异常返回null
  */
 
 const exchangeItemByIndex = (

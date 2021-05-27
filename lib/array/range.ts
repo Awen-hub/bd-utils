@@ -6,7 +6,7 @@ import { trunc } from "lib/number/trunc";
  * @description 生成一个包含闭区间内所有整数的数组
  * @param {number} from -区间最小值
  * @param {number} to -区间最大值
- * @returns {null|Array} -返回生成的的新数组, 异常返回null
+ * @returns - {null|Array} -返回生成的的新数组, 异常返回null
  */
 
 const range = (from: number, to: number): null | number[] => {

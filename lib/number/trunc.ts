@@ -3,7 +3,7 @@
  * @description 取数值整数部分
  * @name trunc
  * @param  {number} num
- * @returns {number}
+ * @returns - {number}
  */
 const trunc = (num: number): number => ~~num;
 

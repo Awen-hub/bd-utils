@@ -1,13 +1,13 @@
-import { matchThroughout } from "../../lib/string";
+import { getStrWithStartAndEnd } from "../../lib/string";
 
-test("matchThroughout", () => {
-  expect(matchThroughout("abcdefg", "b", "d")).toBe("bcd");
-  expect(matchThroughout("abcdefg", "b", "b")).toBe("b");
-  expect(matchThroughout("abcdefg", /a/, /d/)).toBe("abcd");
-  expect(matchThroughout("abcdefg", /a/, /a/)).toBe("a");
-  expect(matchThroughout("abcdefg", /h/, /a/)).toBe(null);
-  expect(matchThroughout("abcdefg", /a/, /h/)).toBe(null);
-  expect(matchThroughout("abcdefg", "1", "b")).toBe(null);
-  expect(matchThroughout("abcdefg", "a", "2")).toBe(null);
-  expect(matchThroughout("abcdefg", "g", "a")).toBe(null);
+test("getStrWithStartAndEnd", () => {
+  expect(getStrWithStartAndEnd("abcdefg", "b", "d")).toBe("bcd");
+  expect(getStrWithStartAndEnd("abcdefg", "b", "b")).toBe("b");
+  expect(getStrWithStartAndEnd("abcdefg", /a/, /d/)).toBe("abcd");
+  expect(getStrWithStartAndEnd("abcdefg", /a/, /a/)).toBe("a");
+  expect(getStrWithStartAndEnd("abcdefg", /h/, /a/)).toBe(null);
+  expect(getStrWithStartAndEnd("abcdefg", /a/, /h/)).toBe(null);
+  expect(getStrWithStartAndEnd("abcdefg", "1", "b")).toBe(null);
+  expect(getStrWithStartAndEnd("abcdefg", "a", "2")).toBe(null);
+  expect(getStrWithStartAndEnd("abcdefg", "g", "a")).toBe(null);
 });

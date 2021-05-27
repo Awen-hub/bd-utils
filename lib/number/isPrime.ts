@@ -5,7 +5,7 @@ import { isFloat } from "./isFloat";
  * @name isPrime
  * @description 判断一个数是否是素数
  * @param {number} num - 传入的参数
- * @returns {boolean}
+ * @returns - {boolean}
  */
 const isPrime = (num: number): boolean => {
   //异常处理

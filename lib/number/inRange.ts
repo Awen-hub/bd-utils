@@ -8,7 +8,7 @@ import { isLessOrEqual } from "./isLessOrEqual";
  * @param {number} num - 需要判断的数
  * @param {number} low - 闭区间左值
  * @param {number} high - 闭区间右值
- * @returns {number}
+ * @returns - {number}
  */
 
 const inRange = (num: number, low: number, high: number): boolean =>
